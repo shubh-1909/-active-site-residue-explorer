@@ -10,7 +10,8 @@ It also generates a **3D visualization** using Py3Dmol, showing:
 
 ## 🚀 Run on Google Colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubh-1909/active-site-residue-explorer/blob/main/Active_Site_Residue_Explorer.ipynb)
+[[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubh-1909/active-site-residue-explorer/blob/main/Active_Site_Residue_Explorer.ipynb)](https://colab.research.google.com/github/shubh-1909/active-site-residue-explorer/blob/main/Active_Site_Residue_Explorer.ipynb
+)
 
 ---
 
