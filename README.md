@@ -1,33 +1,30 @@
 # 🧬 Active Site Residue Explorer
 
-This project reads a **protein `.pdb` file with a bound ligand**, and finds amino acid residues that are **within 5 Å** of the ligand atoms — highlighting likely active site residues.
+This project reads a **protein `.pdb` file with a bound ligand**, and finds amino acid residues that are **within 5 Å of the ligand atoms** — highlighting likely active site residues.
 
-It also generates a **3D visualization** using Py3Dmol, showing:
-- 🩸 Residues near the ligand as red sticks
-- 🧬 The rest of the protein as a cartoon
+It also generates an interactive **3D visualization** using Py3Dmol:
+- 🧬 Protein shown as a cartoon
+- 🩸 Nearby residues (likely active site) highlighted as red sticks
 
 ---
 
 ## 🚀 Run on Google Colab
 
-
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubh-1909/active-site-residue-explorer/blob/main/Active_Site_Residue_Explorer.ipynb)
-
-
 
 ---
 
 ## 🔬 Features
 
-✅ Upload a PDB file with a ligand or cofactor (HETATM)  
-✅ Finds residues within **5 Å** of ligand atoms  
-✅ Lists:
+✅ Uploads a `.pdb` file containing a protein + ligand (HETATM)  
+✅ Identifies all residues **within 5 Å of the ligand**  
+✅ Outputs a clean table listing:
 - Chain ID
-- Residue name + number
-- Distance to ligand  
-✅ Interactive **3D visualization**:
-- Cartoon for protein
-- Red sticks for nearby residues (likely active site)
+- Residue name & number
+- Approx distance to ligand  
+✅ Visualizes structure in 3D with Py3Dmol:
+- Cartoon backbone
+- Red sticks on active site residues
 
 ---
 
@@ -51,4 +48,4 @@ It also generates a **3D visualization** using Py3Dmol, showing:
 
 ## 📜 License
 
-Licensed under the MIT License.
+This project is licensed under the MIT License.
