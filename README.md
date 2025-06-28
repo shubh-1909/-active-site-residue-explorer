@@ -18,7 +18,7 @@ It also generates an interactive **3D visualization** using Py3Dmol:
 
 ✅ Uploads a `.pdb` file containing a protein + ligand (HETATM)  
 ✅ Identifies all residues **within 5 Å of the ligand**  
-✅ Outputs a clean table listing:
+✅ Outputs a clean table listing: 
 - Chain ID
 - Residue name & number
 - Approx distance to ligand  
